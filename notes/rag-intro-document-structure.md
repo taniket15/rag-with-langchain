@@ -286,6 +286,8 @@ After documents:
 
 Optimization of parsing/chunking is a later deep dive.
 
+Implementation of load → chunk → embed → Chroma: [Ingestion: PDFs, chunking, embeddings, vector store](rag-ingestion-chunking-embeddings.md).
+
 ---
 
 ## 11. Mental model
