@@ -7,7 +7,21 @@ authors = [
     { name = "Taniket Mehra", email = "taniket.mehra@gmail.com" }
 ]
 requires-python = ">=3.9"
-dependencies = []
+dependencies = [
+    "chromadb>=1.5.9",
+    "faiss-cpu>=1.13.0",
+    "langchain>=0.3.30",
+    "langchain-community>=0.3.31",
+    "langchain-core>=0.3.86",
+    "langchain-groq>=0.3.8",
+    "langchain-openai>=0.3.35",
+    "langgraph>=0.6.11",
+    "pymupdf>=1.26.5",
+    "pypdf>=6.19.0",
+    "python-dotenv>=1.2.1",
+    "sentence-transformers>=5.1.2",
+    "typesense>=2.0.0",
+]
 
 [project.scripts]
 rag-with-langchain = "rag_with_langchain:main"
